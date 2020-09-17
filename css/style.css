@@ -1,0 +1,134 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+header {
+  height: 80px;
+  background: #8d6e63;
+}
+
+.center {
+  text-align: center;
+}
+
+.space {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.logo {
+  width: 85px;
+  padding: 10px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 10px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 10px;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+  border-bottom-style: solid;
+  border-width: 3px;
+  padding-bottom: 25px;
+}
+.splash {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/fondo.jpg) center center fixed;
+  background-size: cover;
+}
+
+.splash h1 {
+  background: #212121;
+  color: #fff;
+  display: inline-block;
+  padding: 15px;
+  font-size: 40px;
+  border-radius: 3px;
+}
+
+.text {
+  margin-top: 25vh;
+  padding: 20px;
+}
+.splash .btn {
+  background: #8d6e63;
+  color: white;
+}
+
+.splash .btn:hover {
+  border-color: #bcaaa4;
+  border-width: 2px;
+}
+
+.description p {
+  font-size: 17px;
+}
+
+.band {
+  background: #8d6e63;
+  padding: 60px;
+  color: #fff;
+}
+
+.band-icons {
+  height: 50%;
+  width: 65px;
+  margin-top: 38px;
+  margin-left: 30px;
+}
+
+.down-arrow {
+  width: 20px;
+}
+.card {
+  border-radius: 20px;
+  border-width: 3px;
+  padding: 40px;
+  height: 105%;
+}
+
+.card h1 {
+  color: #212121;
+}
+.card ul {
+  list-style: none;
+}
+
+.card li {
+  line-height: 2;
+  padding-right: 5px;
+}
+
+.card .btn {
+  padding: 20px;
+  border-radius: 50px;
+  background: rgba(22, 3, 3, 0.5);
+  color: #fff;
+}
+
+.card.reco {
+  background: #d7ccc8;
+}
+
+.card.reco .btn {
+  padding: 20px;
+  border-radius: 50px;
+  background: #8d6e63;
+  color: #fff;
+}
